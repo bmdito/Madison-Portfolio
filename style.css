@@ -32,16 +32,17 @@ li {
     background: #FFFFFF;
     text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c; */
     padding: 12px 0px 12px 0px;
-    margin-top: 80px;
+    margin-top: 60px;
     font-size: 65px;
 
 }
 
 .landing-text {
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     height: 300px;
     font-size: 25px;
+    line-height: 61px;
 }
 
 .plax-cont {
@@ -71,7 +72,7 @@ li {
 .button-div {
     text-align: center;
     margin-bottom: 100px;
-    margin-top: 90px;
+    margin-top: 310px;
 
 
 }
@@ -90,15 +91,24 @@ button {
 .about-text {
     margin-top: 90px;
     font-size: 25px;
-    text-align: center;
+    text-align: left;
+    margin-left: 100px;
+    line-height: 45px;
 
 }
 
 #photo-me {
-    margin-top: 100px;
+    margin-top: 58px;
     text-align: center;
-    height: 350px;
-    width: 350px;
+    margin-left: 30px;
+    margin-top: 75px;
+
+}
+
+#photo-me img {
+    max-height: 350px;
+    max-width: auto;
+    border-radius: 50%;
 }
 
 .gallery-cont {
