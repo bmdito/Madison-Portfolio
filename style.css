@@ -14,7 +14,7 @@ nav {
 
 
 #mad-brand {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 li {
@@ -32,19 +32,21 @@ li {
     background: #FFFFFF;
     text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c; */
     padding: 12px 0px 12px 0px;
-    margin-top: 100px;
+    margin-top: 80px;
+    font-size: 65px;
 
 }
 
 .landing-text {
+    margin-top: 100px;
     text-align: center;
-    height: 500px;
+    height: 300px;
     font-size: 25px;
 }
 
 .parallax {
     /* The image used */
-    background-image: url("assets/images/painting.jpg");
+    background-image: url("assets/images/blackleaves.jpg");
 
     /* Set a specific height */
     min-height: 300px;
@@ -56,13 +58,49 @@ li {
     background-size: cover;
 }
 
-.about-text {
-    margin-top: 100px;
+.button-div {
+    text-align: center;
+    margin-bottom: 100px;
+
+
+}
+
+button {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px !important;
+    font-weight: bold !important;
+}
+
+.about-head {
     font-size: 25px;
+}
+
+.about-text {
+    margin-top: 90px;
+    font-size: 25px;
+    text-align: center;
 
 }
 
 #photo-me {
     margin-top: 100px;
     text-align: center;
+}
+
+.gallery-cont {
+    justify-content: space-around;
+    text-align: center;
+}
+
+.gallery-img {
+    /* width: 350px;
+    height: 350px; */
+    margin: 50px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.gallery-img img {
+    max-width: 100%;
 }
