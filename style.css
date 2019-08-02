@@ -44,23 +44,34 @@ li {
     font-size: 25px;
 }
 
+.plax-cont {
+    max-width: 850px;
+    max-height: 550px;
+    width: auto;
+    height: auto;
+}
+
 .parallax {
     /* The image used */
-    background-image: url("assets/images/blackleaves.jpg");
+    background-image: url("assets/images/finished-wood3.jpg");
 
+    margin-top: 97px;
     /* Set a specific height */
     min-height: 300px;
+    /* background-color: rgb(43, 42, 42); */
+
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 .button-div {
     text-align: center;
     margin-bottom: 100px;
+    margin-top: 90px;
 
 
 }
@@ -86,6 +97,8 @@ button {
 #photo-me {
     margin-top: 100px;
     text-align: center;
+    height: 350px;
+    width: 350px;
 }
 
 .gallery-cont {
