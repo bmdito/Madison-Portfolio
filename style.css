@@ -125,5 +125,29 @@ button {
 }
 
 .gallery-img img {
-    max-width: 100%;
+    max-height: 800px;
+    width: auto;
+}
+
+.tile-cont {
+
+    text-align: center;
+}
+
+.tile-img {
+    margin: 35px;
+
+
+}
+
+.tile-img img {
+    max-height: 350px;
+    width: auto;
+}
+
+.other-gal-head {
+    font-size: 35px;
+    text-align: center;
+    margin: 35px 35px;
+
 }
