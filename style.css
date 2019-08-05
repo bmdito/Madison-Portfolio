@@ -151,3 +151,25 @@ button {
     margin: 35px 35px;
 
 }
+
+.contact-cont {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cont-head {
+    font-size: 45px;
+
+
+}
+
+.com-blurb {
+    font-size: 35px;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.contact {
+    font-size: 32px;
+    color: lightcyan;
+}
