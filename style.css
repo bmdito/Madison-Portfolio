@@ -97,6 +97,12 @@ button {
 
 }
 
+.port-link {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
 #photo-me {
     margin-top: 58px;
     text-align: center;
