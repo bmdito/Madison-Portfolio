@@ -197,3 +197,36 @@ button {
   font-size: 32px;
   color: lightcyan;
 }
+
+@media only screen and (max-width: 500px) {
+  #photo-me {
+    margin-top: 58px;
+    text-align: center;
+    margin-left: 5px;
+  }
+
+  #photo-me img {
+    max-height: 290px;
+    max-width: auto;
+    border-radius: 50%;
+  }
+
+  .about-text {
+    margin-left: 40px;
+    text-align: center;
+  }
+
+  button {
+    margin-right: 10px;
+  }
+
+  .button-div {
+    margin-top: 110px;
+  }
+  .gal-landing-head,
+  .work-title,
+  .disc-cope,
+  .other-gal-head {
+    margin-left: 51%;
+  }
+}
