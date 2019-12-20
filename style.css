@@ -1,186 +1,189 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: 'Poiret One', cursive;
+  background-color: black;
+  color: white;
+  font-family: "Poiret One", cursive;
 }
 
 .container {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 nav {
-    border-bottom: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
-
 #mad-brand {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 li {
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 25px;
-    text-align: right;
-    font-weight: bold;
-    color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 25px;
+  text-align: right;
+  font-weight: bold;
+  color: black;
 }
 
 .landing-head {
-    text-align: center;
-    /* color: #000000;
+  text-align: center;
+  /* color: #000000;
     background: #FFFFFF;
     text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c; */
-    padding: 12px 0px 12px 0px;
-    margin-top: 60px;
-    font-size: 65px;
-
+  padding: 12px 0px 12px 0px;
+  margin-top: 60px;
+  font-size: 65px;
 }
 
 .landing-text {
-    margin-top: 50px;
-    text-align: center;
-    height: 300px;
-    font-size: 25px;
-    line-height: 61px;
+  margin-top: 50px;
+  text-align: center;
+  height: 300px;
+  font-size: 25px;
+  line-height: 61px;
 }
 
 .plax-cont {
-    max-width: 850px;
-    max-height: 550px;
-    width: auto;
-    height: auto;
+  max-width: 850px;
+  max-height: 550px;
+  width: auto;
+  height: auto;
 }
 
 .parallax {
-    /* The image used */
-    background-image: url("assets/images/finished-wood3.jpg");
+  /* The image used */
+  background-image: url("assets/images/finished-wood3.jpg");
 
-    margin-top: 97px;
-    /* Set a specific height */
-    min-height: 300px;
-    /* background-color: rgb(43, 42, 42); */
+  margin-top: 97px;
+  /* Set a specific height */
+  min-height: 300px;
+  /* background-color: rgb(43, 42, 42); */
 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
 }
 
 .button-div {
-    text-align: center;
-    margin-bottom: 100px;
-    margin-top: 310px;
-
-
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 310px;
 }
 
 button {
-    margin-left: 40px;
-    margin-right: 40px;
-    font-size: 25px !important;
-    font-weight: bold !important;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 25px !important;
+  font-weight: bold !important;
 }
 
 .about-head {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .about-text {
-    margin-top: 90px;
-    font-size: 25px;
-    text-align: left;
-    margin-left: 100px;
-    line-height: 45px;
-
+  margin-top: 90px;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 100px;
+  line-height: 45px;
 }
 
 .port-link {
-    font-size: 25px;
-    text-align: center;
-    text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
 }
 
 #photo-me {
-    margin-top: 58px;
-    text-align: center;
-    margin-left: 30px;
-    margin-top: 75px;
-
+  margin-top: 58px;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 75px;
 }
 
 #photo-me img {
-    max-height: 350px;
-    max-width: auto;
-    border-radius: 50%;
+  max-height: 350px;
+  max-width: auto;
+  border-radius: 50%;
 }
 
 .gallery-cont {
-    justify-content: space-around;
-    text-align: center;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .gallery-img {
-    /* width: 350px;
+  /* width: 350px;
     height: 350px; */
-    margin: 50px;
-    justify-content: center;
-    margin-bottom: 15px;
+  margin: 50px;
+  justify-content: center;
+  margin-bottom: 15px;
 }
 
 .gallery-img img {
-    max-height: 800px;
-    width: auto;
+  max-height: 800px;
+  width: auto;
 }
 
 .tile-cont {
-
-    text-align: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .tile-img {
-    margin: 35px;
-
-
+  margin: 53px;
 }
 
 .tile-img img {
-    max-height: 350px;
-    width: auto;
+  max-height: 350px;
+  width: auto;
 }
 
 .other-gal-head {
-    font-size: 35px;
-    text-align: center;
-    margin: 35px 35px;
+  font-size: 35px;
+  text-align: center;
+  margin: 35px 35px;
+}
 
+.disc-cope {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: -20px;
 }
 
 .gall-disc {
-    font-size: 18px;
-    margin-top: 20px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.work-title {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  color: lightgoldenrodyellow;
 }
 
 .contact-cont {
-    margin-top: 50px;
-    text-align: center;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .cont-head {
-    font-size: 45px;
-
-
+  font-size: 45px;
 }
 
 .com-blurb {
-    font-size: 35px;
-    margin-top: 100px;
-    margin-bottom: 75px;
+  font-size: 35px;
+  margin-top: 100px;
+  margin-bottom: 75px;
 }
 
 .contact {
-    font-size: 32px;
-    color: lightcyan;
+  font-size: 32px;
+  color: lightcyan;
 }
